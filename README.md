@@ -20,4 +20,4 @@ This document outlines the resolution of Jira ticket SUP-16, User requested that
 
 -> Upon remote access, a folder named ckent was visible on the user's Desktop, containing files the user wanted automatically redirected.
 
-![Install Requests](./project2_1/sec_2.1.png)
+![Install Requests](./project2_1/sec2.1.png)
