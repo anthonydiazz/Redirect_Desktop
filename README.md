@@ -13,3 +13,11 @@ This document outlines the resolution of Jira ticket SUP-16, User requested that
 - The IT technician responded by acknowledging the request and asked for the PC name to begin remote validation.
 
 ![Install Requests](./project2_1/request1.png)
+
+
+
+🖥️ Initial Investigation:
+
+-> Upon remote access, a folder named ckent was visible on the user's Desktop, containing files the user wanted automatically redirected.
+
+![Install Requests](./project2_1/sec_2.1.png)
