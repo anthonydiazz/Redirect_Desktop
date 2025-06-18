@@ -16,7 +16,7 @@ This document outlines the resolution of Jira ticket SUP-16, User requested that
 
 
 
-##🖥️ Initial Investigation:
+🖥️ Initial Investigation:
 
 -> Upon remote access, a folder named ckent was visible on the user's Desktop, containing files the user wanted automatically redirected.
 
@@ -30,7 +30,7 @@ This document outlines the resolution of Jira ticket SUP-16, User requested that
 Based on the images above you can tell that setting this up is not going to be easy as pushing a couple of buttons , their is a process to this and as you go down below through the steps and view the images you will see how we come to solving this issue 
 
 
-##🧰 GPO Configuration:
+🧰 GPO Configuration:
 
 1. Opened Group Policy Management > Navigated to anthonytech.com domain.
 
@@ -60,7 +60,7 @@ User Configuration > Policies > Windows Settings > Folder Redirection > Desktop
 - This ensures each user's Desktop files are redirected to a personal folder under the shared drive.
 
 
-##🧩 GPO Assignment & Enforcement:
+🧩 GPO Assignment & Enforcement:
 
 - The GPO was linked to the HR Organizational Unit where the user ckent resides. and was enforced
 
@@ -77,7 +77,7 @@ User Configuration > Policies > Windows Settings > Folder Redirection > Desktop
 
 
 
-##⚠️ Permissions Issue & Resolution:
+⚠️ Permissions Issue & Resolution:
 
 When attempting to address the isssues some other complications arise as well that might not be best practice , that is why it is helpful to advise with your supervisors for doing changes this big
 
@@ -115,7 +115,7 @@ To resolve this issue you would:
 
 
 
-##✅ Final Verification:
+✅ Final Verification:
 
 - A test folder was created on the user’s Desktop.
 
