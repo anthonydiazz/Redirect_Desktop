@@ -12,4 +12,4 @@ This document outlines the resolution of Jira ticket SUP-16, User requested that
 
 - The IT technician responded by acknowledging the request and asked for the PC name to begin remote validation.
 
-![Install Requests](./project2.1/request1.png)
+![Install Requests](./project2_1/request1.png)
